@@ -1,0 +1,10 @@
+---
+- name: test
+  hosts: localhost
+  roles:
+    - role: downstream
+      vars:
+        param: 21
+    - role: downstream
+      vars:
+        param: 42

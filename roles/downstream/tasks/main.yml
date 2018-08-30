@@ -1,0 +1,3 @@
+---
+- debug:
+    msg: "Parameter in downstream is {{param}}"
